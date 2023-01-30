@@ -9,6 +9,7 @@ const configuration = new Configuration({
 	organization: process.env.OPENAI_ORGANIZATION,
     apiKey: process.env.OPENAI_API_KEY,
 });
+console.log(process.env.YOUR_ENV_VARIABLE);
 
 const openai = new OpenAIApi(configuration);
 
