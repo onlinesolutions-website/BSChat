@@ -2,4 +2,5 @@
 .OPENAI_ORGANIZATION
 .env
 ,Ds._store
-/node_modules
+.node_modules
+node_modules
