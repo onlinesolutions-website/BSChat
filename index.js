@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv')
 
 // Open AI Configuration
 const configuration = new Configuration({
