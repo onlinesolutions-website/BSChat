@@ -20,7 +20,7 @@
 
 .side-menu-button {
   padding:12px;
-  border:1px solid #ffffff;
+  border:1px solid #fbff01;
   border-radius:5px;
   text-align: left;
   transition:ease 0.25s all;
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -107,7 +107,7 @@
   
 }
 .avatar {
-  background:rgb(0, 179, 255);
+  background-color:#fbff01;;
   border-radius:50%;
   width: 40px;
   height: 40px;
@@ -116,15 +116,15 @@
   justify-content:center;
   padding:5px;
   font-size:14px;
-  color:#ffffff;
+  color:#000000;
 }
 .avatar.chatgpt {
-  background:#fbff01;
+  background:#000000;
   border-radius:50%;
   min-width: 40px;
   min-height: 40px;
   padding:5px;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 .message {
   padding-left: 40px;
