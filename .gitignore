@@ -3,4 +3,4 @@
 .env
 .Ds._store
 .node_modules
-node_modules
+.yarn.lock
