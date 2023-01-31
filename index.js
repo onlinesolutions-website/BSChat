@@ -47,6 +47,6 @@ app.get('/models', async (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-	  console.log(`Example app listening at http://localhost:0.0.0.0`)
+app.listen(port, '0.0.0.0',() => {
+	  console.log(`Example app listening at http://localhost:${port}`)
 });
