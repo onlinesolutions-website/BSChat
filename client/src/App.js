@@ -16,7 +16,7 @@ function App() {
   const [currentModel, setCurrentModel] = useState("text-davinci-003");
   const [chatLog, setChatLog] = useState([{
     user: "gpt",
-    message: "How can I help you today?"
+    message: "My name is bSocial Bot, How can I help you today?"
   }]);
 
   // clear chats
