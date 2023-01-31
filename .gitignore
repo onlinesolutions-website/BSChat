@@ -1,6 +1,6 @@
 .OPENAI_API_KEY
 .OPENAI_ORGANIZATION
 .env
-,Ds._store
+.Ds._store
 .node_modules
 node_modules
