@@ -83,7 +83,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0088ff;
 }
 
 .chat-log {
@@ -144,7 +144,7 @@
   border: 1px solid white;
   padding:12px;
   border-radius:5px;
-  color:white;
+  color:#fbff01;
   background:transparent;
   outline:none;
   cursor:pointer;

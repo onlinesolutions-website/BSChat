@@ -9,13 +9,14 @@ const ChatBox = ({chatLog, setChatInput, handleSubmit, chatInput}) =>
           <ChatMessage key={index} message={message} />
         ))}
       </div>
-        <div className="chat-input-holder">
+      <div className="chat-input-holder">
+      <text>Enter Your Prompt Here!</text>
       <form className="form" onSubmit={handleSubmit}>
           <input 
           rows="1"
           value={chatInput}
           onChange={(e)=> setChatInput(e.target.value)}
-          className="chat-input-textarea" ></input>
+          className="chat-input-textarea"></input>
           <button className="submit" type="submit">Submit</button>
           </form>
         </div>
