@@ -4,6 +4,8 @@
 .node_modules
 /.pnp
 .pnp.js
+.OPENAI_API_KEY
+.OPENAI_ORGANIZATION
 
 # testing
 /coverage
