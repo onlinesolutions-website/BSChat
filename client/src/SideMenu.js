@@ -2,7 +2,7 @@ const SideMenu = ({ clearChat, currentModel, setCurrentModel, models, setTempera
 <aside className="sidemenu">
       <div className="side-menu-button" onClick={clearChat}>
         <span>+</span>
-        New Chat
+        Ask the Queen Bee
       </div>
       <div className="models">
       <label className="side-label">Model</label>
