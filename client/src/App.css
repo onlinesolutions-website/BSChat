@@ -1,7 +1,7 @@
 .App {
   display:flex;
   background-color: #282c34;
-  color:white;
+  color:#ffffff;
   position:absolute;
   top:0;bottom:0;right:0;left:0;
 }
@@ -20,7 +20,7 @@
 
 .side-menu-button {
   padding:12px;
-  border:1px solid white;
+  border:1px solid #ffffff;
   border-radius:5px;
   text-align: left;
   transition:ease 0.25s all;
@@ -36,7 +36,7 @@
 
 .chatbox {
   flex:1;
-  background-color:#343541;
+  background-color:#000000;
   position:relative;
   overflow-y:scroll;
   padding-bottom:95px;
@@ -107,7 +107,7 @@
   
 }
 .avatar {
-  background:white;
+  background:rgb(0, 179, 255);
   border-radius:50%;
   width: 40px;
   height: 40px;
@@ -116,15 +116,15 @@
   justify-content:center;
   padding:5px;
   font-size:14px;
-  color:#444654;
+  color:#ffffff;
 }
 .avatar.chatgpt {
-  background:#0da37f;
+  background:#fbff01;
   border-radius:50%;
   min-width: 40px;
   min-height: 40px;
   padding:5px;
-  color:white;
+  color:rgb(0, 0, 0);
 }
 .message {
   padding-left: 40px;
@@ -196,16 +196,16 @@
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-  background:#0da37f;
+  background:#fbff01;
   display:flex;
   align-items:center;
   justify-content:center;
   padding:5px 12px;
   font-size:14px;
-  color:white;
+  color:rgb(0, 0, 0);
   border-radius:5px;
   cursor: pointer;
 }
 .submit:hover {
-  background:#066d55;
+  background:#ffffff;
 }

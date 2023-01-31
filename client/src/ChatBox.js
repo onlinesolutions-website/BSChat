@@ -1,4 +1,5 @@
 import OpenAISVGLogo from './OpenAISVGLogo'
+import OpenAISVGLogo1 from './OpenAISVGLogo1'
 
 // Primary Chat Window
 const ChatBox = ({chatLog, setChatInput, handleSubmit, chatInput}) =>
@@ -26,7 +27,7 @@ const ChatMessage = ({ message }) => {
     <div className={`chat-message ${message.user === "gpt" && "chatgpt"}`}>
     <div className="chat-message-center">
       <div className={`avatar ${message.user === "gpt" && "chatgpt"}`}>
-        {message.user === "gpt" ? <OpenAISVGLogo /> : <div>You</div>}
+        {message.user === "gpt" ? <OpenAISVGLogo /> : <OpenAISVGLogo1/>}
       </div>
       <div className="message">
         {message.message}
